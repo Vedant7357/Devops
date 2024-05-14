@@ -1,0 +1,51 @@
+      What is Devops ?
+Ans : DevOps is  a combination of Development and Operations and is a set of practices, principles, and cultural philosophy.
+      DevOps is a software development methodology that accelerates the delivery of higher-quality applications and services by combining and automating the 
+      work of software development and IT operations teams. DevOps is a set of practices, tools, and a cultural philosophy that automate and integrate the 
+      processes between software development and IT teams.
+
+      What is Cycle of Devops ?
+Ans : The DevOps cycle typically involves several key stages, each focused on different aspects of the software development and deployment process. Here's a 
+      high-level overview:
+
+      1. Plan: In this stage, teams define the objectives, requirements, and scope of the project. This involves gathering feedback from stakeholders, 
+      prioritizing tasks, and creating a roadmap for development.
+
+      2. Code: Developers write and review code to implement new features or fix bugs. Version control systems like Git are often used to manage changes, 
+      and collaboration tools facilitate code reviews and discussions among team members.
+
+      3. Build: The code is compiled, built, and packaged into deployable artifacts. Automation tools are frequently used to streamline this process and 
+      ensure consistency across different environments.
+
+      4. Test: Automated testing is performed to verify the functionality, performance, and security of the application. This includes unit tests, 
+      integration tests, and end-to-end tests to catch bugs and regressions early in the development cycle.
+
+      5. Deploy: The application is deployed to various environments, such as development, testing, staging, and production. Continuous integration and 
+      continuous delivery (CI/CD) pipelines automate the deployment process, allowing for frequent and reliable releases.
+
+      6. Operate: Once the application is live, operations teams monitor its performance, availability, and security. They may also handle user support, 
+      troubleshooting, and incident response to ensure smooth operation and minimize downtime.
+
+      7. Monitor: Monitoring tools collect and analyze data on various aspects of the application, including performance metrics, error logs, and user 
+      behavior. This feedback loop provides insights into the application's health and helps identify areas for improvement.
+
+      8. Feedback: Feedback from monitoring, user engagement, and stakeholder input is used to inform future iterations of the application. This may 
+      involve refining features, optimizing performance, or addressing user concerns to continuously improve the product.
+
+      What is monolithic architeture and microlithic architecture ?
+Ans : In a monolithic architecture, an entire application is designed and deployed as a single unit. All components and functionalities of the application are 
+      tightly coupled and interconnected within the same codebase. Typically, monolithic applications consist of three main components: the user interface 
+      (frontend), business logic (backend), and data storage (database). These components are often developed using a single programming language and deployed 
+      on a single server or server cluster.
+
+      Microservices architecture, on the other hand, is an architectural style where an application is composed of small, independent services that 
+      communicate with each other through well-defined APIs. Each service is responsible for a specific business capability and can be developed, deployed, 
+      and scaled independently of other services. This approach enables teams to adopt different technologies, programming languages, and frameworks for each 
+      service, allowing for greater flexibility and agility.
+
+      
+
+
+
+
+
