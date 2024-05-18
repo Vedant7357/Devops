@@ -52,6 +52,10 @@ Ans : When working as a team on a project, it is important that everyone stays u
       > fetch : fetch gets all the change history of a tracked branch/repository.
       > merge : merge combines the current branch, with a specified branch.
 
+      what is the difference between git pull and git fetch ?
+Ans : Git Fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
+      You can use git fetch to know the changes done in the remote repo/branch since your last pull.
 
+      Git Pull on the other hand does that and brings (copy) those changes from the remote repository.
 
 
