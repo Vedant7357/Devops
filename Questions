@@ -43,7 +43,21 @@ Ans : In a monolithic architecture, an entire application is designed and deploy
       and scaled independently of other services. This approach enables teams to adopt different technologies, programming languages, and frameworks for each 
       service, allowing for greater flexibility and agility.
 
-      
+(Commands of Git):
+
+      git init
+      ls -a
+      git branch
+      git add dev
+      git status
+      git commit -m "first commit" 
+      git status
+      git branch main
+      git checkout dev 
+      git branch 
+      git push origin main
+      git merge main.
+
       What is Pull Request ?
 Ans : When working as a team on a project, it is important that everyone stays up to date.
       Any time you start working on a project, you should get the most recent changes to your local copy.
@@ -52,10 +66,26 @@ Ans : When working as a team on a project, it is important that everyone stays u
       > fetch : fetch gets all the change history of a tracked branch/repository.
       > merge : merge combines the current branch, with a specified branch.
 
-      what is the difference between git pull and git fetch ?
-Ans : Git Fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn’t do any file transferring. It’s more like just checking to see if there are any changes available).
+      What is the difference between git pull and git fetch ?
+Ans : Git Fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn’t do any file transferring.
+      It’s more like just checking to see if there are any changes available).
       You can use git fetch to know the changes done in the remote repo/branch since your last pull.
 
       Git Pull on the other hand does that and brings (copy) those changes from the remote repository.
+
+      Difference between Merge and Rebase ? 
+Ans : Merge:
+      When you merge branches in Git, you're essentially combining the changes from one branch into another.
+      This creates a new commit on the target branch, often with a merge commit that records the integration of changes.
+      Merge preserves the commit history of both branches, showing the branch divergence and subsequent merging.
+      It's suitable for preserving the context of how and when the changes were integrated.
+      Merge commits can clutter the history, especially in projects with frequent merges.
+
+      Rebase:
+      Rebase, on the other hand, rewrites the commit history by moving the entire feature branch to the tip of the branch you're rebasing onto. 
+      It essentially changes the base of the feature branch.
+      It results in a linear history as if the work had been started from the current state of the target branch.
+      Rebasing can make the commit history cleaner and easier to understand since it eliminates unnecessary merge commits.
+      It's great for creating a cleaner history before pushing changes to a shared repository or before creating a pull request.
 
 
