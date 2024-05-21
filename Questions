@@ -42,7 +42,8 @@ Ans : In a monolithic architecture, an entire application is designed and deploy
       communicate with each other through well-defined APIs. Each service is responsible for a specific business capability and can be developed, deployed, 
       and scaled independently of other services. This approach enables teams to adopt different technologies, programming languages, and frameworks for each 
       service, allowing for greater flexibility and agility.
-
+what is git 
+git is the distributed version control system, that tracks the history of changes as people and teams collaborate on projects. 
 (Commands of Git):
 
       git init
@@ -54,6 +55,7 @@ Ans : In a monolithic architecture, an entire application is designed and deploy
       git status
       git branch main
       git checkout dev 
+      git checkout -b
       git branch 
       git push origin main
       git merge main.
