@@ -90,4 +90,7 @@ Ans : Merge:
       Rebasing can make the commit history cleaner and easier to understand since it eliminates unnecessary merge commits.
       It's great for creating a cleaner history before pushing changes to a shared repository or before creating a pull request.
 
-
+      What is Docker ?
+Ans : Docker is a platform that enables developers to build, package, distribute, and run applications using containers.
+      Containers allow developers to pack an application and its dependencies into a standardized unit, ensuring that it runs consistently across different environments.
+      Docker provides tools and a runtime environment for managing these containers.
