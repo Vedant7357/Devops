@@ -93,4 +93,14 @@ Ans : Merge:
       What is Docker ?
 Ans : Docker is a platform that enables developers to build, package, distribute, and run applications using containers.
       Containers allow developers to pack an application and its dependencies into a standardized unit, ensuring that it runs consistently across different environments.
-      Docker provides tools and a runtime environment for managing these containers.
+     Docker provides tools and a runtime environment for managing these containers.
+
+docker client,  docker host ,   docker registrie 
+docker run                      image, nginx, tomcat
+docker build 
+docker pull
+
+
+
+
+
