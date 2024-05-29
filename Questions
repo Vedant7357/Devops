@@ -103,13 +103,30 @@ docker pull
 
 commands of docker 
  docker --help
-docker run
+docker run -it, (is used to login) -d (python)
 sudo docker ps (to see running container)
 sudo docker ps-a (show list of all containers)
 sudo docker start (container ID)
 docker run -d (to run in foreground)
+sudo docker diff (see the chnges made in conatiner)
+sudo docker commit (running image)
 Vi dockerfile
+FROM (ubuntu:latest)
+ENV myname vedant 
+WORKDIR /mnt 
+COPY . . (it copies from local host machine to container) 
+ADD 
+RUN echo " hello world " > /mnt/filename
+CMD 
+sudo docker build -t imagename .
+echo $ is a variable
 
       What is the use of entrypoint instruction ?
-Ans : ENTRYPOINT lets you set the container’s primary purpose, like running a web server, database, or application. 
+Ans :  specify default executable )ENTRYPOINT lets you set the container’s primary purpose, like running a web server, database, or application. 
       It also allows you to pass arguments at runtime to customize the container’s behavior.
+
+
+
+
+
+
