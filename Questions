@@ -93,7 +93,7 @@ Ans : Merge:
       What is Docker ?
 Ans : Docker is a platform that enables developers to build, package, distribute, and run applications using containers.
       Containers allow developers to pack an application and its dependencies into a standardized unit, ensuring that it runs consistently across different environments.
-     Docker provides tools and a runtime environment for managing these containers.
+     Docker provides tools and a runtime environment for managing these containers. Docker is a container runtime tool.
 
 docker client,  docker host ,   docker registrie 
 docker run                      image, nginx, tomcat
@@ -124,6 +124,10 @@ echo $ is a variable
       What is the use of entrypoint instruction ?
 Ans :  specify default executable )ENTRYPOINT lets you set the container’s primary purpose, like running a web server, database, or application. 
       It also allows you to pass arguments at runtime to customize the container’s behavior.
+
+      What is kubernetes ?
+
+Ans : It is used to manage conatiner and deploy services.
 
 
 
