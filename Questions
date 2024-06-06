@@ -132,6 +132,27 @@ Ans :  Specify default executable )ENTRYPOINT lets you set the container’s pri
       What is kubernetes ?
 Ans : It is used to manage container and deploy services. 
       It is a tool that helps us to run and manage applications in containers.
+      k8s works on cluster architecture, master and worker nodes.
+
+kubernetes master 
+ api comminucates with master and worker.
+scheduler workerload me pods schedule krta hai.
+controller and manager is use to manage pods according to amount requirement.
+etcd is database jo master node ke bahar hai isme pods ki info component ki info rehati hai.
+
+
+worker node 
+iske ander multiple pods hai 
+pods k ander container h 
+docker is a container runtime
+
+
+{if my pod is crashed what will be the next step in kubernetes architecture.}
+
+
+
+
+
 
 
 
