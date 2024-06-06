@@ -42,9 +42,12 @@ Ans : In a monolithic architecture, an entire application is designed and deploy
       communicate with each other through well-defined APIs. Each service is responsible for a specific business capability and can be developed, deployed, 
       and scaled independently of other services. This approach enables teams to adopt different technologies, programming languages, and frameworks for each 
       service, allowing for greater flexibility and agility.
-what is git 
-git is the distributed version control system, that tracks the history of changes as people and teams collaborate on projects. 
-(Commands of Git):
+
+      What is git ? 
+Ans : Git is the distributed version control system, that tracks the history of changes as people 
+      and teams collaborate on projects. 
+  
+      (Commands of Git):
 
       git init
       ls -a
@@ -122,12 +125,13 @@ sudo docker build -t imagename .
 echo $ is a variable
 
       What is the use of entrypoint instruction ?
-Ans :  specify default executable )ENTRYPOINT lets you set the container’s primary purpose, like running a web server, database, or application. 
-      It also allows you to pass arguments at runtime to customize the container’s behavior.
+Ans :  Specify default executable )ENTRYPOINT lets you set the container’s primary purpose, like running a web server, database, or application. 
+       It also allows you to pass arguments at runtime to customize the container’s behavior.
+
 
       What is kubernetes ?
-
-Ans : It is used to manage conatiner and deploy services.
+Ans : It is used to manage container and deploy services. 
+      It is a tool that helps us to run and manage applications in containers.
 
 
 
