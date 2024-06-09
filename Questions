@@ -96,12 +96,12 @@ Ans : Merge:
       What is Docker ?
 Ans : Docker is a platform that enables developers to build, package, distribute, and run applications using containers.
       Containers allow developers to pack an application and its dependencies into a standardized unit, ensuring that it runs consistently across different environments.
-     Docker provides tools and a runtime environment for managing these containers. Docker is a container runtime tool.
+      Docker provides tools and a runtime environment for managing these containers. Docker is a container runtime tool.
 
-docker client,  docker host ,   docker registrie 
-docker run                      image, nginx, tomcat
-docker build 
-docker pull
+      docker client,  docker host ,   docker registrie 
+       docker run                     image, nginx, tomcat
+       docker build 
+       docker pull
 
 
 commands of docker 
@@ -134,20 +134,32 @@ Ans : It is used to manage container and deploy services.
       It is a tool that helps us to run and manage applications in containers.
       k8s works on cluster architecture, master and worker nodes.
 
-kubernetes master 
- api comminucates with master and worker.
-scheduler workerload me pods schedule krta hai.
-controller and manager is use to manage pods according to amount requirement.
-etcd is database jo master node ke bahar hai isme pods ki info component ki info rehati hai.
+
+Architecture of Kubernete :
+
+ Master plane 
+
+ Api comminucates with master and worker.
+
+ Scheduler workerload me pods schedule krta hai.
+
+ Controller and manager is use to manage pods according to amount requirement.
+
+ Etcd is database jo master node ke bahar hai isme pods ki info component ki info rehati hai.
 
 
-worker node 
-iske ander multiple pods hai 
-pods k ander container h 
-docker is a container runtime
+ worker node 
+ There are multiple pods in worker node.
+ There are containers in a pod.
+ Docker is a container runtime.
+ The Kubelet works closely with the master control plane to start, stop, 
+ and manage containers based on Pod specifications.
+ Kube proxy provides the routing traffic and load balancers.
 
+ This is a question asked in interview.
+ {if my pod is crashed what will be the next step in kubernetes architecture.}
+ 
 
-{if my pod is crashed what will be the next step in kubernetes architecture.}
 
 
 
