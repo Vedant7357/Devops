@@ -139,17 +139,17 @@ Architecture of Kubernete :
 
  Master plane 
 
- Api comminucates with master and worker.
+ Api comminucates with master control plane and worker node.
 
- Scheduler workerload me pods schedule krta hai.
+ Scheduler worker node me pods schedule krta hai.
 
- Controller and manager is use to manage pods according to amount requirement.
+ Controller manager is use to manage pods according to resources requirement. desired state should match active state
 
- Etcd is database jo master node ke bahar hai isme pods ki info component ki info rehati hai.
+ Etcd is database cluster metadata jo master node ke bahar hai isme pods ki info component ki info rehati hai.
 
 
  worker node 
- There are multiple pods in worker node.
+ There are multiple pods in worker node, pods is a container manager tool.
  There are containers in a pod.
  Docker is a container runtime.
  The Kubelet works closely with the master control plane to start, stop, 
