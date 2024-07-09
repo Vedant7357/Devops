@@ -426,7 +426,34 @@ A string where multiple values are added is called Variable
  Input variable and Output variable 
 
 to set value we create a file tf var
- 
+
+Input variable (jo bhi value pass karna honga to vo isme karna padenga)
+
+Output variable (resource ki value print karta hai)
+
+provider "aws" {
+region = "us-east"
+}
+resource "aws_instance" "my instance name" {
+ami = .....
+instance_type = "t2 micro"
+}
+
+resource "S3" "my bucket" {
+ami = .....
+instance type = ....
+}
+
+resource ...
+ami
+instance
+logs = var.logs
+
+
+
+
+
+
 
 
 
