@@ -417,15 +417,15 @@ roleRef:
 vs code me folder banana terraform naam ka 
 main.tf k naam se repo banana hai 
 
+terraform init (initialize krenga) 
+terraform plan 
+terraform destroy (sab resource delete kr denga .tf files me k) 
+
 multiple providers aur multiple regions
  
-variables in terraform.
+variables in terraform (A string where multiple values are added is called Variable)
 
-A string where multiple values are added is called Variable
-
- Input variable and Output variable 
-
-to set value we create a file tf var
+to set value we create a file tf.var
 
 Input variable (jo bhi value pass karna honga to vo isme karna padenga)
 
