@@ -451,7 +451,13 @@ logs = var.logs
 
 
 
+  whenever the infrastructure is modified terraform uses state file to know the user what is done int that bcuase tf does not
+  have direct acess all the sensitive info is stored which are very imp as per the company or org
 
+
+Q. How do you manage satefile ?
+  Ans :  We save in remote aws backend bcause humne versoning enable kr k rakhi hai
+         and i may use as a backup when my infra is destroyed.
 
 
 
