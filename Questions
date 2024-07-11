@@ -460,6 +460,17 @@ Q. How do you manage satefile ?
          and i may use as a backup when my infrastructure is destroyed.
 
 
+Ansible  
+app level pe use hota h , instance login services install krne k liye use hota hai.
+
+provisioners 
+file 
+local ecec
+remote exec
+ 
+
+
+
 
 
 
