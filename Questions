@@ -469,6 +469,17 @@ local ecec
 remote exec
  
 
+why do u need a branching strategy in devops ?
+and what are the different strategy in devops ? 
+
+ plan code build comes in continious integration
+test release comes under continious development 
+deploy comes under contionious delivery 
+jenkins port number 8080
+
+
+
+
 
 
 
