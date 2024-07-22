@@ -469,21 +469,36 @@ local ecec
 remote exec
  
 
-why do u need a branching strategy in devops ?
-and what are the different strategy in devops ? 
+      Why do u need a branching strategy in devops ?
 
- plan code build comes in continious integration
-test release comes under continious development 
-deploy comes under contionious delivery 
-jenkins port number 8080
+Ans : A branching strategy is something a software development team uses when interacting with a version control system for writing and managing code.
+      as the name suggests, the branching strategy focuses on how branches are used in the development process.
+      A branching strategy helps define how the delivery team functions and how each feature, improvement, or bug fix is handled.
+      It also reduces the complexity of the delivery pipeline by allowing developers to focus on developments and deployments only on the relevant branches—without affecting the entire product.
+
+      What are the different strategy in devops ?
+
+ Ans : Gitflow, Githubflow, Trunk based development, Gitlab flow.
+
+      plan code build comes in continuous integration
+      test release comes under continuous development 
+      deploy comes under contionious delivery 
+      jenkins port number 8080
 
 
+Continous Delivery : 
+ The primary goal of Continuous Delivery is to enable software teams to release new features, 
+ bug fixes, and improvements in a rapid and consistent manner.
+ In this the version control system like Git is used to manage the change in the codebase and used 
+ to rollback if necessary.
+ Continuous improvement is used.
 
 
-
-
-
-
+Continuous Deployment (CD) :
+ Continuous Deployment is a software development and DevOps practice where every code change that passes automated tests
+ and quality checks is automatically deployed to production without any manual intervention. 
+ Continous monitoring is used to detect issues or anomalies as soon as they occur.
+ Automation and continuous integration is used.
 
 
 
