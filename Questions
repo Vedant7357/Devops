@@ -72,7 +72,8 @@ Ans : When working as a team on a project, it is important that everyone stays u
       > merge : merge combines the current branch, with a specified branch.
 
       What is the difference between git pull and git fetch ?
-Ans : Git Fetch is the command that tells your local git to retrieve the latest meta-data info from the original (yet doesn’t do any file transferring.
+Ans : Git Fetch is the command that tells your local git to retrieve the latest meta-data info from the original 
+      (yet doesn’t do any file transferring.
       It’s more like just checking to see if there are any changes available).
       You can use git fetch to know the changes done in the remote repo/branch since your last pull.
 
@@ -87,7 +88,8 @@ Ans : Merge:
       Merge commits can clutter the history, especially in projects with frequent merges.
 
       Rebase:
-      Rebase, on the other hand, rewrites the commit history by moving the entire feature branch to the tip of the branch you're rebasing onto. 
+      Rebase, on the other hand, rewrites the commit history by moving the entire feature 
+      branch to the tip of the branch you're rebasing onto. 
       It essentially changes the base of the feature branch.
       It results in a linear history as if the work had been started from the current state of the target branch.
       Rebasing can make the commit history cleaner and easier to understand since it eliminates unnecessary merge commits.
@@ -95,7 +97,8 @@ Ans : Merge:
 
       What is Docker ?
 Ans : Docker is a platform that enables developers to build, package, distribute, and run applications using containers.
-      Containers allow developers to pack an application and its dependencies into a standardized unit, ensuring that it runs consistently across different environments.
+      Containers allow developers to pack an application and its dependencies into a standardized unit,
+      ensuring that it runs consistently across different environments.
       Docker provides tools and a runtime environment for managing these containers. Docker is a container runtime tool.
 
       docker client,  docker host ,   docker registrie 
@@ -125,7 +128,8 @@ sudo docker build -t imagename .
 echo $ is a variable
 
       What is the use of entrypoint instruction ?
-Ans :  Specify default executable )ENTRYPOINT lets you set the container’s primary purpose, like running a web server, database, or application. 
+Ans :  Specify default executable )ENTRYPOINT lets you set the container’s primary purpose, 
+      like running a web server, database, or application. 
        It also allows you to pass arguments at runtime to customize the container’s behavior.
 
 
@@ -161,40 +165,47 @@ Architecture of Kubernete :
 
 What is Kubernetes?
 ==> 
-Kubernetes is an open-source Container Management tool that automates container deployment, container scaling, descaling, and container load balancing (also called a container orchestration tool).
-Kubernetes is an open-source platform that manages Docker containers in the form of a cluster. Along with the automated deployment and scaling of containers, it provides healing by automatically 
-restarting failed containers and rescheduling them when their hosts die. This capability improves the application’s availability.
+ Kubernetes is an open-source Container Management tool that automates container deployment, container scaling, descaling, 
+ and container load balancing (also called a container orchestration tool).
+ Kubernetes is an open-source platform that manages Docker containers in the form of a cluster.
+ Along with the automated deployment and scaling of containers, it provides healing by automatically 
+ restarting failed containers and rescheduling them when their hosts die. This capability improves the application’s availability.
 
 Features of Kubernetes:
-1.Automated Scheduling– Kubernetes provides an advanced scheduler to launch containers on cluster nodes. It performs resource optimization.
-2.Self-Healing Capabilities– It provides rescheduling, replacing, and restarting the containers that are dead.
-3.Automated Rollouts and Rollbacks– It supports rollouts and rollbacks for the desired state of the containerized application.
-4.Horizontal Scaling and Load Balancing– Kubernetes can scale up and scale down the application as per the requirements.
-5.Resource Utilization– Kubernetes provides resource utilization monitoring and optimization, ensuring containers are using their resources efficiently.
-6.Support for multiple clouds and hybrid clouds– Kubernetes can be deployed on different cloud platforms and run containerized applications across multiple clouds.
+1. Automated Scheduling– Kubernetes provides an advanced scheduler to launch containers on cluster nodes. 
+   It performs resource optimization.
+2. Self-Healing Capabilities– It provides rescheduling, replacing, and restarting the containers that are dead.
+3. Automated Rollouts and Rollbacks– It supports rollouts and rollbacks for the desired state of the containerized application.
+4. Horizontal Scaling and Load Balancing– Kubernetes can scale up and scale down the application as per the requirements.
+5. Resource Utilization– Kubernetes provides resource utilization monitoring and optimization, ensuring containers are using their resources efficiently.
+6. Support for multiple clouds and hybrid clouds– Kubernetes can be deployed on different cloud platforms 
+   and run containerized applications across multiple clouds.
 
-/use/local/bin => contains all the binary and executable files.
+   /use/local/bin => contains all the binary and executable files.
 
-kubernetes Architecture:
-In kubernetes architecture there is cluster. In cluster there are two planes as follows: 
+   kubernetes Architecture:
+   In kubernetes architecture there is cluster. In cluster there are two planes as follows: 
 
 {1} Master Control Plane     
-In master plane there are 4 components:
-1. API-Server : It validates the request and authenticates the user.  It exposes the Kubernetes API, which allows users, administrators, and other components to communicate with the cluster.
-2. Controller Manager : is used to monitor and make sure that every thing is working as we have define and will compare it with desire state
-3. Scheduler :The Scheduler is responsible for placing Pods onto suitable worker nodes. 
-4. etcd : it stores the metadata of all components.It holds the configuration data and the state of the entire cluster.
+    In master plane there are 4 components:
+1.  API-Server : It validates the request and authenticates the user. 
+    It exposes the Kubernetes API, which allows users, administrators, and other components to communicate with the cluster.
+2.  Controller Manager : is used to monitor and make sure that every thing is working as we have define and will compare it with desire state
+3.  Scheduler :The Scheduler is responsible for placing Pods onto suitable worker nodes. 
+4.  etcd : it stores the metadata of all components.It holds the configuration data and the state of the entire cluster.
 
 {2} Worker Node Plane
-1. Kubelet :  The Kubelet is an agent that runs on each worker node and communicates with the master control plane.The Kubelet works closely with the master control
-   plane to start, stop, and manage containers based on Pod specifications.
-2. kube-Proxy :  Kube Proxy sets up routing and load balancing so that applications can seamlessly communicate with each other and external resources.
-3. Container runtime : A container runtime is the software responsible for running containers on the worker nodes.
+1.  Kubelet :  The Kubelet is an agent that runs on each worker node and communicates with the master control plane.
+    The Kubelet works closely with the master control
+    plane to start, stop, and manage containers based on Pod specifications.
+2.  kube-Proxy :  Kube Proxy sets up routing and load balancing so that applications 
+    can seamlessly communicate with each other and external resources.
+3.  Container runtime : A container runtime is the software responsible for running containers on the worker nodes.
 
-Difference between pod,container and deployment.
-Difference between deployment and replicaset.
-Difference between imperative and declarative approach .
-what is yaml? => yet another markup language
+    Difference between pod,container and deployment.
+    Difference between deployment and replicaset.
+    Difference between imperative and declarative approach .
+    what is yaml? => yet another markup language
 
 In terms of kubernetes pod is a yamal manifest
 
